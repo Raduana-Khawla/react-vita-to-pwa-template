@@ -3,9 +3,9 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="container mx-auto my-8 pb-5">
+    <div className="container mx-auto my-8 pb-4">
       <h1 className="text-3xl font-bold mb-4 ps-2">Contact with Us</h1>
-      <form className="max-w-md mx-auto">
+      <form className="max-w-md m-5">
         <div className="mb-4">
           <label
             htmlFor="name"
@@ -53,7 +53,7 @@ const Contact = () => {
         </div>
         <button
           type="submit"
-          className="bg-blue-500 text-white p-2 rounded-md hover:bg-blue-700"
+          className="bg-blue-500 text-white p-4 mb-5 rounded-md hover:bg-blue-700"
         >
           Send Message
         </button>

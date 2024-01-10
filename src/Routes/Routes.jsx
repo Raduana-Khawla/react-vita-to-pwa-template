@@ -64,9 +64,9 @@ export const router = createBrowserRouter([
       {
         path: "dashboard",
         element: (
-          <PrivateRoute>
-            <Dashboard></Dashboard>
-          </PrivateRoute>
+          // <PrivateRoute>
+          <Dashboard></Dashboard>
+          // </PrivateRoute>
         ),
         children: [
           // normal user routes
@@ -87,25 +87,25 @@ export const router = createBrowserRouter([
           {
             path: "addItem",
             element: (
-              <AdminRoute>
-                <AddItem></AddItem>
-              </AdminRoute>
+              // <AdminRoute>
+              <AddItem></AddItem>
+              // </AdminRoute>
             ),
           },
           {
             path: "manageItems",
             element: (
-              <AdminRoute>
-                <ManageItems></ManageItems>
-              </AdminRoute>
+              // <AdminRoute>
+              <ManageItems></ManageItems>
+              // </AdminRoute>
             ),
           },
           {
             path: "updateItem/:id",
             element: (
-              <AdminRoute>
-                <UpdateItem></UpdateItem>
-              </AdminRoute>
+              // <AdminRoute>
+              <UpdateItem></UpdateItem>
+              // </AdminRoute>
             ),
             loader: ({ params }) =>
               fetch(`https://fish-farm-server.onrender.com/menu/${params.id}`),
@@ -113,9 +113,9 @@ export const router = createBrowserRouter([
           {
             path: "users",
             element: (
-              <AdminRoute>
-                <AllUsers></AllUsers>
-              </AdminRoute>
+              // <AdminRoute>
+              <AllUsers></AllUsers>
+              // </AdminRoute>
             ),
           },
           {

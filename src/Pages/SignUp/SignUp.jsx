@@ -56,7 +56,7 @@ const SignUp = () => {
           <div className="text-center lg:text-left">
             <h1 className="text-5xl font-bold">Sign up now!</h1>
           </div>
-          <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl text-bold bg-indigo-600">
+          <div className="card md:w-1/2 max-w-sm shadow-2xl text-bold bg-indigo-600">
             <form onSubmit={handleSubmit(onSubmit)} className="card-body">
               <div className="form-control">
                 <label className="label">
@@ -143,7 +143,7 @@ const SignUp = () => {
                   </a>
                 </label>
               </div>
-              <div className="form-control mt-6">
+              <div className="form-control mt-2">
                 <input
                   className="btn btn-primary font-bold"
                   type="submit"

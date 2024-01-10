@@ -10,7 +10,7 @@ const Income = () => {
           <h3>Search Expense withs advance filters</h3>
         </div>
       </div>
-      <div className="overflow-x-auto pt-5">
+      <div className="overflow-x-auto pt-5 p-4">
         <h2 className="text-3xl font-bold mb-4">Expense List</h2>
         <table className="min-w-full bg-white border border-gray-300">
           <thead>

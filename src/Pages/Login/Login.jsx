@@ -90,7 +90,7 @@ const Login = () => {
                   </a>
                 </label>
               </div>
-              <div className="form-control mt-6">
+              <div className="form-control mt-2">
                 <input
                   disabled={false}
                   className="btn btn-primary font-bold"
